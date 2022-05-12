@@ -1,0 +1,88 @@
+/* styles.css */
+.external-style{
+    background-color: red;
+    color: white;
+}
+.odd{
+    color:black;
+    background-color: rgba(241, 56, 0, 0.432);
+}
+.odd.cool{
+    font-size: 22px;
+}
+#idblue {
+    font-size: 30px;
+    color: rgba(0, 0, 255, 0.76);
+    background-color: white;
+}
+#idfour {
+    background-color: rgb(4, 247, 105);
+    color: black;
+    font-weight: 700;
+}
+.fonts {
+    color: white;
+    background-color: black;
+}
+
+.fontstwo {
+    color: black;
+    background-color: yellow;
+}
+.sizes {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+.container{
+    color: red;
+    background-color: yellow;
+    text-align: center;
+}
+
+/* dsfgsdfgasdfgsdfg */
+
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+.small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+#confirm-button{
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.text.child {
+  color: red;
+  font-size: 14px;
+}
+
+div.text {
+  color: green;
+  font-size: 22px;
+}
