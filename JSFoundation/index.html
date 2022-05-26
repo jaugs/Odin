@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS_TEST</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <script src="".javascript.js"></script> -->
+    <style>
+      input {
+        font-size: 2em;
+        margin: 10px 1px 0;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <input class="numberInput" type="text">
+    <p></p>
+  
+    <script>
+      const input = document.querySelector('.numberInput');
+      const para = document.querySelector('p');
+  
+      function squared(num) {
+      return num * num;
+      }
+
+      function cubed(num) {
+      return num * num * num;
+      }
+
+      function factorial(num) {
+      if (num < 0) return undefined;
+      if (num == 0) return 1;
+      let x = num - 1;
+      while (x > 1) {
+      num *= x;
+      x--;
+      }
+      return num;
+      }
+
+      input.addEventListener('change', () => {
+      const num = parseFloat(input.value);
+ 
+      if (isNaN(num)) {
+    para.textContent = 'You need to enter a number!';
+    } else {
+    para.textContent = `${num} squared is ${squared(num)}. `;
+    para.textContent += `${num} cubed is ${cubed(num)}. `;
+    para.textContent += `${num} factorial is ${factorial(num)}. `;
+    }
+    }     );
+
+
+function add7 (sum) {
+  console.log(sum + 7);
+}
+add7(3);
+
+function multiply (num1, num2) {
+  return num1 * num2;
+}
+let product = multiply(2,6);
+console.log(product)
+
+function capitalize(string) {
+  capletter = string.charAt(0);
+  console.log(capletter);
+  cap2= capletter.toUpperCase();
+  console.log(cap2);
+  return capletter3 = cap2 + string.slice(1);
+}
+let newstring=capitalize("Lana");
+console.log(newstring);
+
+function lastLetter(string) {
+  let last = string.slice(-1);
+  return last;
+}
+
+let newstring2 = lastLetter("coffee");
+console.log(newstring2);
+
+
+
+
+    </script>
+
+
+</body>
+</html>
+
+
+
+

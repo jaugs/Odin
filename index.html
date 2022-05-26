@@ -15,7 +15,7 @@
     <a href="https://google.com">click me</a>
 
 	<p><a href="./pages/about.html">About</a></p>
-    <img src="images/fork.jpg">
+    <!-- <img src="images/fork.jpg"> -->
 
     <p><strong>Lorem ipsum dolor sit amet, coetur
         </strong>mpor</p>
@@ -37,7 +37,78 @@
         <li>333</li>
         <li>the</li>
     </ol>
+<script>
 
+// const reverseString = function(word) {
+//     let num = word.length;
+//     console.log(num);
+//     for (i = 0; i < num; i++) {
+//        word[i] = word[num - i];
+//     }
+//     console.log(word);
+//     let arr = word.split("");
+//     console.log(arr);
+//     let arrRev = arr.reverse("");
+//     console.log(arrRev);
+//     // return reverse = arrRev.toString();
+
+// };
+// let sword = "sword";
+// console.log(reverseString(sword));
+
+// const removeFromArray = function(array, removed) {
+//    let newArray = array.removeFromArray(removed);
+//     console.log(newArray);
+//     return newArray;
+// }
+// let newarray =  removeFromArray(["shoe", "tiger", "hat", "boot"], "hat");
+
+
+// const reverseString = function(string) {
+//    let splitstring = string.split('');
+//     console.log(splitstring);
+//   let reversestring = splitstring.reverse();
+//     console.log(reversestring);
+//  let joinstring =  reversestring.join("");
+//     return joinstring;
+// };
+
+// console.log(reverseString("metal"));
+
+// const reverseString = function(string) {
+//  return string.split('').reverse().join('');
+// };
+
+
+// const removeFromArray = function(array, removed) {
+
+// let newArray = array.splice(removed, 1);
+// return array 
+// // = array.removeFromArray(removed);
+// }
+// console.log(removeFromArray([1,2,3,4], 4));
+// ;
+const sumAll = function(num1, num2) {
+    
+let numbers = [];
+for (let i = num1; i <= num2; i++) {
+    numbers.push(i);
+}
+console.log(numbers);
+
+var sum = numbers.reduce(function(a, b){
+        return a + b;
+    }, 0);
+return sum;
+};
+
+console.log(sumAll(1, 6));
+
+
+
+
+
+</script>
 
 
 </body>
